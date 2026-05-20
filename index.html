@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Silver Phoenix Acre helps homes and businesses recycle everything responsibly."
+    />
+    <title>Silver Phoenix Acre | Recycling Everything</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">Silver Phoenix Acre</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+          Menu
+        </button>
+        <nav id="nav-menu" class="nav-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Recycling Everything, Responsibly</p>
+            <h1>Turning waste into value for a cleaner future.</h1>
+            <p class="lead">
+              Silver Phoenix Acre partners with households, offices, and industrial
+              teams to collect, sort, and repurpose recyclable materials of all kinds.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Request Pickup</a>
+              <a class="btn btn-secondary" href="#services">See What We Recycle</a>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="Key impact highlights">
+            <h2>Our Impact</h2>
+            <ul>
+              <li><strong>15,000+</strong> tons diverted from landfill</li>
+              <li><strong>98%</strong> material recovery rate</li>
+              <li><strong>24/7</strong> commercial support</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <h2>About Silver Phoenix Acre</h2>
+          <p>
+            We are a full-spectrum recycling company dedicated to recovering value
+            from everyday and complex waste streams. From paper and plastics to
+            electronics and mixed materials, our team manages the full journey with
+            transparency, safety, and environmental care.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="services">
+        <div class="container">
+          <h2>What We Recycle</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Residential Recycling</h3>
+              <p>
+                Curbside support, bulk pickups, and neighborhood collection plans for
+                homes and apartment communities.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Commercial & Office Waste</h3>
+              <p>
+                End-to-end workplace recycling for paper, plastic, packaging, glass,
+                and food-service materials.
+              </p>
+            </article>
+            <article class="card">
+              <h3>E-Waste Recovery</h3>
+              <p>
+                Secure handling of devices, batteries, cables, and components with
+                compliant downstream processing.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Industrial Scrap</h3>
+              <p>
+                Customized collection and logistics for metal scrap, pallets, and
+                high-volume recyclable byproducts.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="process">
+        <div class="container">
+          <h2>How It Works</h2>
+          <ol class="steps">
+            <li>
+              <h3>1. Schedule</h3>
+              <p>
+                Tell us what you need recycled, and we build the right pickup or drop
+                off plan.
+              </p>
+            </li>
+            <li>
+              <h3>2. Collect & Sort</h3>
+              <p>
+                Materials are separated and prepared using proven systems to maximize
+                recovery value.
+              </p>
+            </li>
+            <li>
+              <h3>3. Repurpose</h3>
+              <p>
+                Recyclables are processed through trusted partners to return them to
+                the circular economy.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p>
+            Ready to reduce waste and recycle smarter? Reach out and we will tailor a
+            plan for your location.
+          </p>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="jane@example.com"
+              required
+            />
+
+            <label for="message">How can we help?</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell us about your recycling needs..."
+              required
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year"></span> Silver Phoenix Acre. All rights reserved.</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
